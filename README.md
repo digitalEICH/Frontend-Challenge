@@ -4,7 +4,7 @@
 Welcome to the Frontend Challenge! This challenge is designed to assess your ability to build an advanced CRUD operations dashboard using **Next.js**, **Shadcn UI**, **NextAuth.js**, and **Zustand**. Your mission? Create an intuitive and engaging dashboard with your **own design**, where users can manage products with advanced features like filtering, sorting, pagination, and more.
 
 ## 📌 Tech Stack
-- **Next.js** (frontend framework)
+- **Next.js** (frontend framework for SSR)
 - **Shadcn UI** (for the design of system components and modern UI)
 - **NextAuth.js** (for authentication)
 - **Zustand** (for global state management)
@@ -22,15 +22,15 @@ Welcome to the Frontend Challenge! This challenge is designed to assess your abi
 
 ### 📊 Dashboard
 #### Products Page:
-- Display a table of products with the following columns of the API docs:
+- Display a table of products with the following columns of the API docs -> must show data on the **server side**:
 - Actions (**Edit, Delete, View Details**)
-- Add **search functionality** by product name.
+- Add **search functionality** by product name -> show all searches and filter on **URL Search Params** -> search must be with API, not local.
 - Add **hover effects** and interactive elements to make the table engaging.
 
 ### ➕ Add Product:
 - A button to open a modal for adding a new product.
 - The form should include fields in API docs:
-- Validate the form inputs before submission.
+- Validate the form inputs before submission with zod schemas.
 
 ### ✏️ Edit Product:
 - Clicking the **Edit** button should open a modal with the product details pre-filled.
