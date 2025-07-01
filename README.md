@@ -1,7 +1,7 @@
 # Frontend Challenge: CRUD Operations Dashboard
 
 ## 🚀 Overview
-Welcome to the Frontend Challenge! This challenge is designed to assess your ability to build an advanced CRUD operations dashboard using **Next.js**, **Shadcn UI**, **NextAuth.js**, and **Zustand**. Your mission? Create an intuitive and engaging dashboard with your **own design**, where users can manage products with advanced features like filtering, sorting, pagination, and more.
+Welcome to the Frontend Challenge! This challenge is designed to assess your ability to build an advanced CRUD operations dashboard using **Next.js**, **Shadcn UI**, **NextAuth.js**, and **Zustand**. Your mission? Create an intuitive and engaging dashboard with your **own design with shadcn ui components and layout**, where users can manage products with advanced features like filtering, sorting, pagination, and more.
 
 ## 📌 Tech Stack
 - **Next.js** (frontend framework for SSR)
